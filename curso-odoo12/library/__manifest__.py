@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Library Management2",
+    'name': "Library Management",
 
     'summary': """
-        Library Management2
+        Library Management
     """,
 
-    'author': "My Company",
+    'author': "Aloha",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -20,11 +20,13 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+         'security/ir.model.access.csv',
         # 'views/views.xml',
-        # 'views/templates.xml',
+         'views/library_book_view.xml',
+         'views/library_book_category_view.xml'
     ],
     'installable': True,
+    'application': True,
     # only loaded in demonstration mode
 
 }
