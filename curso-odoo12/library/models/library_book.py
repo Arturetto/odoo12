@@ -22,10 +22,6 @@ class LibraryBook(models.Model):
             book.categ_count = len(book.category_ids)
 
 
-    @api.constrains("isbn")
-    def check_isbn(self):
-        isbn = self.search([]).mapped("isbn")
-        if self.isbn and self.isbn in isbn:
-            raise exceptions.ValidationError("ISBN REPETIDO")
+
 
 
