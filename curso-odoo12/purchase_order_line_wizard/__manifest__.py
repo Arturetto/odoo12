@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Library Management",
+    'name': "Product Extend",
 
     'summary': """
         Library Management
@@ -16,16 +16,12 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['product'],
 
     # always loaded
     'data': [
-        'data/data.xml',
-        'security/groups.xml',
-        'security/ir.model.access.csv',
         # 'views/views.xml',
-        'views/library_book_view.xml',
-        'views/library_book_category_view.xml'
+         'views/product_view.xml'
     ],
     'installable': True,
     'application': True,

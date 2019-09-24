@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="library_book_1" model="library.book">
+            <field name="name">Libraso</field>
+            <field name="isbn">111</field>
+        </record>
+        <record id="library_book_2" model="library.book">
+            <field name="name">Satanás, en mi código no vuelvas más</field>
+            <field name="isbn">666</field>
+            <field name="description">Null Pointer Exception</field>
+        </record>
+    </data>
+</odoo>
