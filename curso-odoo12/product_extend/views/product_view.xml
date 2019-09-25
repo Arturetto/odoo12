@@ -1,4 +1,4 @@
-<odoo>12
+<odoo>
     <data>
         <!-- Inherit Form View to Modify it -->
         <record id="product_template_form_view_tipology" model="ir.ui.view">

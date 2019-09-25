@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Product Extend",
+    'name': "Report invoice testt",
 
     'summary': """
         Library Management
@@ -16,12 +16,15 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['product'],
+    'depends': ['account'],
 
     # always loaded
     'data': [
-        # 'views/views.xml',
-        'views/product_view.xml'
+        'data/paperformat.xml',
+        'report/reports.xml',
+        'report/account_invoice_report.xml',
+
+
     ],
     'installable': True,
     'application': True,
